@@ -1,0 +1,7 @@
+echo "# chiru_project" >> license.md
+git init
+git add license.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Chiru292/chiru_project.git
+git push -u origin main
